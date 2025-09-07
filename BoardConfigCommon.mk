@@ -76,7 +76,7 @@ BOARD_SAMSUNG_DYNAMIC_PARTITIONS_PARTITION_LIST := \
     product \
     odm
 
--include vendor/lineage/config/BoardConfigReservedSize.mk
+-include vendor/lmodroid/config/BoardConfigReservedSize.mk
 
 ## DTB
 BOARD_DTB_CFG := $(COMMON_PATH)/configs/kernel/exynos9611.cfg
@@ -121,7 +121,7 @@ $(call soong_config_set,samsungVars,target_keymaster4_library,//vendor/samsung/g
 # HIDL
 DEVICE_FRAMEWORK_COMPATIBILITY_MATRIX_FILE := \
     hardware/samsung/vintf/samsung_framework_compatibility_matrix.xml \
-    vendor/lineage/config/device_framework_matrix.xml
+    vendor/lmodroid/config/device_framework_matrix.xml
 DEVICE_MANIFEST_FILE += $(COMMON_PATH)/manifest.xml
 DEVICE_MATRIX_FILE := $(COMMON_PATH)/compatibility_matrix.xml
 
