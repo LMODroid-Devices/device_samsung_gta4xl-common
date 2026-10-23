@@ -76,7 +76,7 @@ BOARD_SAMSUNG_DYNAMIC_PARTITIONS_PARTITION_LIST := \
     product \
     odm
 
--include vendor/lineage/config/BoardConfigReservedSize.mk
+-include vendor/lmodroid/config/BoardConfigReservedSize.mk
 
 ## DTB
 BOARD_DTB_CFG := $(COMMON_PATH)/configs/kernel/exynos9611.cfg
